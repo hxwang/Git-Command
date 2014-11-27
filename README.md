@@ -17,3 +17,7 @@ Command
 - Step3: create new repository on git hub
 - Step4: set remote to the new reposity, `git remote set-url origin NEW_REPO_URL`
 - Step5: force push `git push -u origin master`
+
+### Config Git
+- cache credential (username and password)
+  - `git config --global credential.helper wincred`
