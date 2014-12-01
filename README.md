@@ -19,5 +19,11 @@ Command
 - Step5: force push `git push -u origin master`
 
 ### Config Git
-- cache credential (username and password), set the timeout value!
-  - `git config --global credential.helper "cache --timeout=3600"`
+- cache credential (username and password)
+  - set the timeout value! [Only works for Unix/Linux]
+    - `git config --global credential.helper "cache --timeout=3600"`
+  - for window users
+    - download a winstore helper [here](http://blog.sdbarker.com/git-credential-caching-on-windows/)
+    - put the 'exe' file into git bin folder, usually at `C:\Program Files (x86)\Git\bin`
+    - type in command: `git config --global credential.helper winstore`, it will use winstore to manage your credential
+    - 
