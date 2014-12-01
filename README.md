@@ -20,4 +20,4 @@ Command
 
 ### Config Git
 - cache credential (username and password)
-  - `git config --global credential.helper wincred`
+  - `git config --global credential.helper "cache --timeout=3600"`
