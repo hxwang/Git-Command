@@ -19,5 +19,5 @@ Command
 - Step5: force push `git push -u origin master`
 
 ### Config Git
-- cache credential (username and password)
+- cache credential (username and password), set the timeout value!
   - `git config --global credential.helper "cache --timeout=3600"`
