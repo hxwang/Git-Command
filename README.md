@@ -27,3 +27,9 @@ Command
     - put the 'exe' file into git bin folder, usually at `C:\Program Files (x86)\Git\bin`
     - type in command: `git config --global credential.helper winstore`, it will use winstore to manage your credential
     
+
+### How to discard recent changes
+- list recent local commit history
+  - `git log`
+- copy the id of the latest commit version you want, and discard all the following commits
+  - `git reset --hard <sha1-commit-id>`
